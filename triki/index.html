@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIKI Ferxcho & El nene</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TRIKI Ferxcho, Jhosua & El nene</h1>
+        <div id="mode-selection" class="mode-selection">
+            <h2>Selecciona el modo de juego:</h2>
+            <button id="pvp-btn" class="mode-btn">Jugador vs Jugador</button>
+            <button id="pvai-btn" class="mode-btn">Jugador vs Máquina</button>
+            <button id="tournament-btn" class="mode-btn">Torneo</button>
+        </div>
+        <div id="symbol-selection" class="symbol-selection" style="display: none;">
+            <h2>¿Quieres jugar como?</h2>
+            <button id="x-btn" class="symbol-btn">X (Primero)</button>
+            <button id="o-btn" class="symbol-btn">O (Segundo)</button>
+        </div>
+        <div id="board" class="board" style="display: none;">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <div id="message" class="message"></div>
+        <div class="button-container">
+            <button id="reset" class="reset-btn">Reiniciar Juego</button>
+            <button id="back-btn" class="back-btn">Volver</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
